@@ -1,7 +1,11 @@
+import Header from "./components/header/Header";
+import HomePage from "./components/homePage/HomePage";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="min-h-screen bg-mainbg">
+      <Header />
+      <HomePage />
     </div>
   );
 };
