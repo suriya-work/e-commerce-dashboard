@@ -1,11 +1,14 @@
+import Aside from "./components/aside/Aside";
 import Header from "./components/header/Header";
-import HomePage from "./components/homePage/HomePage";
-
+import Home from "./components/homePage/Home";
 const App = () => {
   return (
-    <div className="min-h-screen bg-mainbg">
+    <div className="min-h-screen grid grid-cols-1 grid-rows-[70px_1fr] bg-mainbg">
       <Header />
-      <HomePage />
+      <div className="container grid grid-cols-9 w-full">
+        <Aside />
+        <Home />
+      </div>
     </div>
   );
 };
