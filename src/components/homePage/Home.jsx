@@ -1,5 +1,6 @@
 import { CiShop } from "react-icons/ci";
 import { IoIosArrowForward } from "react-icons/io";
+import MawarShop from "../mawar/MawarShop";
 const Home = () => {
   return (
     <div className="col-span-8 py-5">
@@ -17,6 +18,8 @@ const Home = () => {
           <p>Mawar shop official</p>
         </span>
       </div>
+      {/* mawar */}
+      <MawarShop />
     </div>
   );
 };
