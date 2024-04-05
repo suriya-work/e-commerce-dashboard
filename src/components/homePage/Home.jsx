@@ -3,8 +3,8 @@ import { IoIosArrowForward } from "react-icons/io";
 import MawarShop from "../mawar/MawarShop";
 const Home = () => {
   return (
-    <div className="col-span-8 py-5">
-      <div className="flex gap-4 pl-5">
+    <div className="col-span-8 ml-7 py-5 ">
+      <div className="flex md:gap-4 ">
         <span className="flex items-center gap-2 text-base-75">
           <p>Home</p>
           <IoIosArrowForward />

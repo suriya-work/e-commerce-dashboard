@@ -29,7 +29,7 @@ const Header = () => {
         </div>
       </div>
       {/* search-Mobile */}
-      <div className="flex md:hidden justify-center my-5">
+      <div className="flex md:hidden justify-center mt-5">
         <Search />
       </div>
     </>
