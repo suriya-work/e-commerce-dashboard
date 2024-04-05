@@ -6,7 +6,9 @@ const App = () => {
     <div className="min-h-screen grid grid-cols-1 grid-rows-[70px_1fr] bg-mainbg">
       <Header />
       <div className="container grid grid-cols-9 w-full">
-        <Aside />
+        <div className="md:flex hidden">
+          <Aside />
+        </div>
         <Home />
       </div>
     </div>
