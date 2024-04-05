@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
-// import { Link } from "react-router-dom";
-// import logo from "/images/logo.png";
-
+import Aside from "../aside/Aside";
 export const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -37,22 +35,10 @@ export const Hamburger = () => {
           </h1>
           <RxCross2 onClick={handleClick} size={20} color="#fff" />
         </div>
-        {/* <Search /> */}
-
-        {/* <ul className="mt-3 flex w-3/4 flex-col gap-10 text-xl font-medium text-black opacity-60 ">
-          {navigationItems.map((item) => {
-            return (
-              <Link to={item.href} key={item}>
-                <li
-                  className="hover:text-primery cursor-pointer rounded-3xl transition duration-300 flex items-center "
-                  key={`id-${item.href}-${item.title}`}
-                >
-                  {item.title}
-                </li>
-              </Link>
-            );
-          })}
-        </ul> */}
+        {/* <Aside /> */}
+        <div className="flex md:hidden w-full pl-10">
+          <Aside />
+        </div>
       </div>
     </>
   );
