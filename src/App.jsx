@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className="min-h-screen grid grid-cols-1 grid-rows-[70px_1fr] bg-mainbg">
       <Header />
-      <div className="container grid grid-cols-9 w-full">
+      <div className="container md:grid grid-cols-9 w-full">
         <div className="md:flex hidden">
           <Aside />
         </div>

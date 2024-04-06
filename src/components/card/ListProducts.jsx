@@ -1,0 +1,51 @@
+export const ListProducts = [
+  {
+    image: "./images/laptop.jpg",
+    rating: "24",
+    title: "Lather Azelcer",
+    description: "Lorem ipsum is placeholder text",
+    price: "24.25",
+  },
+  {
+    image: "./images/laptop.jpg",
+    rating: "24",
+    title: "Lather Azelcer",
+    description: "Lorem ipsum is placeholder text",
+    price: "24.25",
+  },
+  {
+    image: "./images/laptop.jpg",
+    rating: "24",
+    title: "Lather Azelcer",
+    description: "Lorem ipsum is placeholder text",
+    price: "24.25",
+  },
+  {
+    image: "./images/laptop.jpg",
+    rating: "24",
+    title: "Lather Azelcer",
+    description: "Lorem ipsum is placeholder text",
+    price: "24.25",
+  },
+  {
+    image: "./images/laptop.jpg",
+    rating: "24",
+    title: "Lather Azelcer",
+    description: "Lorem ipsum is placeholder text",
+    price: "24.25",
+  },
+  {
+    image: "./images/laptop.jpg",
+    rating: "24",
+    title: "Lather Azelcer",
+    description: "Lorem ipsum is placeholder text",
+    price: "24.25",
+  },
+  {
+    image: "./images/laptop.jpg",
+    rating: "24",
+    title: "Lather Azelcer",
+    description: "Lorem ipsum is placeholder text",
+    price: "24.25",
+  },
+];
