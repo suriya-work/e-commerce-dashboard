@@ -22,7 +22,7 @@ const CategoryList = [
 
 const Aside = () => {
   return (
-    <div className=" md:border-mainfg md:border-r-2 h-full w-full pt-3 relative">
+    <div className=" md:border-mainfg md:border-r-2 h-full w-full pt-3 relative cursor-pointer">
       <div className="flex flex-col gap-4 sticky top-10">
         {CategoryList.map((category) => (
           <div key={category.title}>
