@@ -4,14 +4,14 @@ import { ListProducts } from "./ListProducts";
 
 export default function Card() {
   return (
-    <div className="flex flex-wrap justify-between gap-4">
+    <div className="flex flex-wrap justify-between gap-4 ">
       {/* flex flex-wrap justify-between */}
       {/* grid grid-cols-4 grid-rows-2 */}
       <TollBars />
       {ListProducts.map((item, index) => (
         <div
           key={index}
-          className="bg-mainfg rounded-lg overflow-hidden md:w-64"
+          className="bg-mainfg rounded-lg overflow-hidden md:w-64 "
         >
           <div className="relative">
             <div className="w-full h-32 rounded-md  bg-cover overflow-hidden">
@@ -28,7 +28,7 @@ export default function Card() {
           </div>
           <div className="flex items-center justify-between px-3 pb-2">
             <p className="text-base-50 text-sm w-1/2">{item.description}</p>
-            <button className="bg-primary  rounded-full w-10 h-6 text-white flex items-center justify-center text-xs ">
+            <button className="bg-primary hover:bg-[#2d4471]  rounded-full w-10 h-6 text-white flex items-center justify-center text-xs ">
               Buy
             </button>
           </div>
