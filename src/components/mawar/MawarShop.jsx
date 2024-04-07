@@ -19,7 +19,7 @@ const MawarShop = () => {
           <p className="text-green text-sm">Online</p>
         </div>
         <div className="flex items-center justify-between py-3">
-          <button className="bg-primary w-32 h-7 rounded-full">
+          <button className="bg-primary w-32 h-7 rounded-full hover:bg-[#2d4471]">
             <span className="flex items-center gap-1 justify-center text-white text-sm">
               Follow <GoPlus />
             </span>
@@ -79,7 +79,7 @@ const MawarShop = () => {
         </div>
       </div>
       <div className="col-start-8">
-        <div className="bg-green w-full h-full rounded-lg flex flex-col justify-center text-center p-2">
+        <div className="bg-green cursor-pointer w-full h-full rounded-lg flex flex-col justify-center text-center p-2">
           <span className="flex flex-col items-center gap-2 text-white text-xs ">
             <p>Best safter of the yaer</p>
             <BiLike size={18} />
@@ -87,7 +87,7 @@ const MawarShop = () => {
         </div>
       </div>
       <div className="col-start-9">
-        <div className="bg-green w-full h-full rounded-lg flex flex-col justify-center text-center p-2">
+        <div className="bg-green  cursor-pointer w-full h-full rounded-lg flex flex-col justify-center text-center p-2">
           <span className="flex flex-col items-center gap-2 text-white text-xs ">
             <p>Best safter of the yaer</p>
             <BiLike size={18} />
@@ -99,7 +99,7 @@ const MawarShop = () => {
           {ListShop.map((item) => (
             <div
               key={item.title}
-              className="md:border-base-75 md:border-r-2 flex h-8 items-center gap-2 last:border-none"
+              className="md:border-base-75 md:border-r-2 cursor-pointer flex h-8 items-center gap-2 last:border-none"
             >
               <span>{item.icon}</span>
               <p className="text-sm  text-white pr-3">{item.title}</p>

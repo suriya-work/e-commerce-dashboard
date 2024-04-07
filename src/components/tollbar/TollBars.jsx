@@ -12,13 +12,13 @@ const ListTollBar = [
 export default function TollBars() {
   return (
     <div className="container md:flex hidden">
-      <div className="border-mainfg border-b-2 w-full flex gap-20 ">
+      <div className="border-mainfg border-b-2 w-full flex gap-20 cursor-pointer">
         {ListTollBar.map((item) => (
           <div
             key={item.title}
             className="flex items-center justify-center py-3"
           >
-            <p className="text-base-75 text-lg font-semibold hover:text-white">
+            <p className="text-base-75 text-lg font-semibold hover:text-primary">
               {item.title}
             </p>
             </div>
